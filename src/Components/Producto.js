@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export const Producto = ( {producto, handleDelete, handleUpdate} ) => {
-    const {id, name, price, quantity, description} = producto;
+    const {id, name, price, quantity} = producto;
   return (
     <>
         <h2>{name}</h2>
