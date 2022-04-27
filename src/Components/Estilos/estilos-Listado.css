@@ -1,0 +1,54 @@
+* {
+    background: lightgray;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+section {
+    margin: 5% auto;
+    text-align: center;
+    
+}
+.caja {
+    width: 30%;
+    height: 80%;
+    /* border: 2px solid rgb(99, 99, 216); */
+    border-radius: 7%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5%;
+    background: rgb(53, 53, 133);
+}
+
+button {
+    padding: 2%;
+    border: 1.5px solid rgb(207, 146, 146);
+    border-radius: 4%;
+    background: rgb(61, 61, 114);
+    color: #f0f8ff;
+    transition: background .5s ease;
+
+}
+
+button:hover{
+    color: rgb(32, 32, 57);
+    transition: color .4s ease;
+    background: aliceblue;
+
+}
+
+
+h1, h2, article, p {
+    color: aliceblue;
+    background: rgb(53, 53, 133);    
+}
+
+
+
+
+.titleProduct:hover{
+    transition: color .3s ease;
+    color: black;
+    
+}

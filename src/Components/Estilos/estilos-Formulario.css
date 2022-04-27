@@ -1,0 +1,55 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;   
+}
+
+
+.cajaFormulario {
+    width: 30%;
+    height: 80%;
+    background: rgb(53, 53, 133);
+    margin: 5% auto;
+    padding: 1%;
+    text-align: center;
+
+    border-radius: 5%;
+    
+}
+
+.cajaFormulario section, label, form {
+    background: rgb(53, 53, 133);
+    color: white;
+}
+
+
+.cajaFormulario section input, 
+.cajaFormulario section textarea{
+    margin-top: 5%;
+}
+
+input, textarea {
+    margin-left: 2%;
+    border: 1.5px solid rgb(207, 146, 146);
+    border-radius: 6%;
+}
+
+textarea{
+    height: 1.5rem;
+}
+
+.cajaFormulario input[type="submit"]{
+    width: 30%;
+    height: 2rem;
+    border: 1.5px solid rgb(207, 146, 146);
+    border-radius: 10%;
+    background: rgb(61, 61, 114);
+    color: white;
+    transition: background .5s ease;
+}
+
+.cajaFormulario input[type="submit"]:hover{
+    transition: color .4s ease;
+    background: aliceblue;
+    color: rgb(32, 32, 57);
+}
+

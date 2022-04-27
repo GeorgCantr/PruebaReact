@@ -1,0 +1,36 @@
+{
+  "productos": [
+    {
+      "name": "Pollo",
+      "price": "12",
+      "quantity": "1",
+      "tienda": "Tienda 2",
+      "description": "Pechuga de pollo",
+      "id": 3
+    },
+    {
+      "name": "Caramelo",
+      "price": "1",
+      "quantity": "2",
+      "tienda": "Tienda 3",
+      "description": "Caramelo de fresa",
+      "id": 5
+    },
+    {
+      "name": "Pizza",
+      "price": "20",
+      "quantity": "8",
+      "tienda": "PizzaHot",
+      "description": "Pizza de pollo",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "name": "Harina",
+      "price": "8",
+      "quantity": "1",
+      "tienda": "Tienda de harina",
+      "description": "Harina de maiz"
+    }
+  ]
+}
