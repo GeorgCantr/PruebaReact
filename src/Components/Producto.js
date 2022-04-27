@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export const Producto = ( {producto, handleDelete, handleUpdate} ) => {
+export const Producto = ( {producto, handleDelete} ) => {
     const {id, name, price, quantity} = producto;
   return (
     <>
