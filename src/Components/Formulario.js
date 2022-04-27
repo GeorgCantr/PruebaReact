@@ -6,7 +6,6 @@ import './Estilos/estilos-Formulario.css';
 export const Formulario = ( { handleAdd } ) => {
 
 	const navigate = useNavigate();
-    const location = useLocation();
 
     const [name, setName] = useState('');
 	const [price, setPrice] = useState('');
